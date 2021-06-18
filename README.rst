@@ -7,7 +7,7 @@ Created on Thu Jun 17 22:07:43 2021
 
 Description
 ===========
-This project / module has been built to determine the optimum angle of the solar panels for a given location. This is built usng Python.
+This project / module has been built to determine the optimum angle of the solar panels for a given location. This is built using Python.
 
 The location can be provided as an postcode (UK, Canada), zip code (US) or city / area name (India, Rest of the world)
 
