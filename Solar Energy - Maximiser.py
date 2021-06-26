@@ -27,10 +27,14 @@ open_cage_api_key = ''
 ## Provide the location to obtain Latitude and Longitude of location in search string
 loc = ''
 filepath = ''
-# Provide number of start date, days range for which the search is to be run
-start_date = '2021-01-01'
 
-dt = 366 # Max will be 366 days, in a leap year
+# Provide number of date range for which the search is to be run. 
+# Default start date will be current date
+day = datetime.now()
+today = day.strftime("%Y-%m-%d")
+#day = today#"16-06-2021"
+start_date = today #'2021-01-01'
+dt = 30 # Max will be 366 days, in a leap year
 # Generate the list of days for which the dataframe is to be generated
 datelist = getDaysList(start_date, dt)
 #print(datelist)
